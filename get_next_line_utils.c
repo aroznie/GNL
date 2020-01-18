@@ -6,7 +6,7 @@
 /*   By: arroznie <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/11/19 16:05:59 by arroznie     #+#   ##    ##    #+#       */
-/*   Updated: 2019/11/19 16:12:30 by arroznie    ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/21 03:57:22 by arroznie    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -32,13 +32,13 @@ char	*ft_strchr(const char *s, int c)
 	s1 = (char *)s;
 	while (s1[i])
 	{
-		if (s[i] == c)
+		if (s1[i] == c)
 			return (s1 + i);
 		i++;
 	}
 	if (s1[i] == c)
 		return (s1 + i);
-	return (NULL);
+	return (0);
 }
 
 char	*ft_strdup(const char *s1)
