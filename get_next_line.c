@@ -80,4 +80,3 @@ int				get_next_line(int fd, char **line)
 	*line = buff;
 	buff = NULL;
 	return (0);
-}
